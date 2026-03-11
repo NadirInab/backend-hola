@@ -43,7 +43,7 @@ class ActivityExcursionSeeder extends Seeder
                 'description' => 'Explore the countryside by quad or buggy, with a Moroccan snack included in a Berber house.',
                 'availability' => ['Everyday'],
                 'pickup_times' => ['08h30-12h', '14h-18h'],
-                'price_adult_eur' => ['quad' => 40, 'buggy' => 60],
+                'price_adult_eur' =>40,
                 'price_child_eur' => null,
             ],
         ];
@@ -53,7 +53,7 @@ class ActivityExcursionSeeder extends Seeder
                 'title' => 'City tour of Agadir',
                 'description' => 'Panoramic view of the Kasbah. Join us for a beautiful day around Agadir starting at the marina & port.',
                 'availability' => ['Everyday'],
-                'pickup_times' => ['10h-13h', '15h-18h'],
+                'pickup_times' =>40,
                 'price_adult_eur' => 15,
                 'price_child_eur' => 10,
             ],
