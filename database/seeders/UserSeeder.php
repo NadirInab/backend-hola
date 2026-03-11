@@ -22,9 +22,9 @@ class UserSeeder extends Seeder
             'role' => User::ROLE_ADMIN,
         ]);
 
-        User::factory(10)->create([
-            'password' => Hash::make('password'),
-            'role' => User::ROLE_CUSTOMER,
-        ]);
+        // User::factory(10)->create([
+        //     'password' => Hash::make('password'),
+        //     'role' => User::ROLE_CUSTOMER,
+        // ]);
     }
 }
