@@ -57,6 +57,8 @@ class Activity extends Model
         'pickup_times' => 'array',
         'price_adult_eur' => 'float',
         'price_child_eur' => 'float',
+        'availability' => 'array',
+    'pickup_times' => 'array',
     ];
 
     /**

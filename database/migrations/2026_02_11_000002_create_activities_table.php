@@ -34,8 +34,8 @@ return new class extends Migration
             $table->boolean('promotion_active')->default(false);
             $table->json('availability')->nullable();
             $table->json('pickup_times')->nullable();
-            $table->json('price_adult_eur')->nullable();
-            $table->json('price_child_eur')->nullable();
+$table->decimal('price_adult_eur', 10, 2); 
+    $table->decimal('price_child_eur', 10, 2);
             $table->timestamps();
 
             $table->index('category_id');
