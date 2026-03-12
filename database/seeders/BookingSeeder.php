@@ -49,7 +49,7 @@ class BookingSeeder extends Seeder
             'customer_phone'      => '+2126' . rand(10000000, 99999999),
             'total_price'         => $totalPrice,
             'status'              => $statuses[array_rand($statuses)],
-            'is_approved'         => true,
+          
         ]);
     }
 
