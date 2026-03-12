@@ -55,7 +55,7 @@ class Activity extends Model
         'promotion_active' => 'boolean',
         'availability' => 'array',
         'pickup_times' => 'array',
-        // 'price_adult_eur' => 'float',
+        'price_adult_eur' => 'float',
         'price_child_eur' => 'float',
         'availability' => 'array',
     'pickup_times' => 'array',
